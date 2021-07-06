@@ -4,7 +4,7 @@ describe("Thermostat", function() {
   let thermostat;
 
   beforeEach(function() {
-    thermostat = New Thermostat();
+    thermostat = new Thermostat;
   });
 
   it("starts at 20 degrees", function() {
