@@ -1,11 +1,46 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+
+}
+
+#main {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.container {
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+  border: solid blue 1px;
+}
+
 .low-usage {
   color: green;
+
 }
 
 .medium-usage {
   color: black;
+
 }
 
 .high-usage {
   color: red;
+
+}
+
+.relative-degrees {
+  position: absolute;
+  top: 20px;
+  left: 400px;
+  /* background-color: white; */
+  width: 220px;
+  height: 200px;
+  font-size: 70px;
+  transform: rotate(90deg);
+
 }
